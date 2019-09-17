@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="app.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+        <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/bootstrap-theme.css"/>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+  <style>
+    h1{
+      text-align:center;
+    color: forestgreen;
+    margin: 30px 0 50px; 
+    font-size: 60px;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration-line: underline;
+    text-decoration-color: palevioletred;
+    text-decoration-style: dashed;
+
+    }
+    body{
+     padding-top: 50px;
+     padding-bottom: 50px;
+     background: rgb(201, 189, 189);
+     border: crimson solid 8px;
+     border-block-end-style: groove;
+     border-block-start-style: groove;
+   }
+   button{
+    font-size: 20px;
+    font-style: oblique;
+    color: crimson;
+    background-color: pink;
+    font-weight: bold;
+    border: cadetblue inset 5px;
+    margin-bottom: 5px;
+   }
+   th{
+    color: forestgreen;
+    margin: 30px 0 50px; 
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration-line: underline;
+    text-decoration-color: palevioletred;
+    text-decoration-style: dashed;
+    padding: 5px ;
+   }
+  .title{
+    padding: 20px;
+  }
+   .gallery{
+    margin: 10px 50px;
+    display: inline;
+}
+.gallery img{
+    width: 200px;
+    padding: 5px;
+    height: 200px;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+img{
+     margin-top: 25px;
+     box-shadow: 5px 5px 5px #6e6c6c;
+   }
+  </style>
+</head>
+<body>
+  
+  <a href="b.html">Go to second page</a>
+
+  
+
+  <table id="userTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th class="title">Title</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <button id="loadUsersButton">Load User</button>
+    <tbody id="userTableBody">
+      
+    </tbody>
+  </table>
+<h1>Image Gallery</h1>
+  <div id = "imageBody">
+    <!-- <a href="https://via.placeholder.com/150/92c952" data-lightbox="mygallery" data-title="Image1<br>">
+      <img src="https://via.placeholder.com/150/92c952" title="Image 1"></a> -->
+  </div>
+</body>
+</html>
